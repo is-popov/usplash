@@ -1,0 +1,28 @@
+<resources>
+
+    <style name="Consultant" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/buttonTextColor</item>
+        <item name="colorPrimaryDark">@color/buttonTextColor</item>
+        <item name="colorAccent">@color/primaryTextColor</item>
+        <item name="colorSecondary">@color/secondaryTextColor</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textColorHint">@color/primaryTextColor</item>
+        <item name="android:statusBarColor">@color/buttonTextColor</item>
+    </style>
+
+    <style name="Consultant.Theme" />
+
+    <style name="Consultant.Theme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <item name="android:elevation">0dp</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="Consultant.Theme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+    <style name="Consultant.Theme.Main"></style>
+
+    <style name="Consultant.ImageButton.SelectableBorderless" parent="Consultant">
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="title_main">Главная</string>
+    <string name="title_catalog">Поиск</string>
+
+    <string name="app_name">uSplash</string>
+
+    <!-- view common  -->
+    <string name="view_default_error">Непредвиденная ошибка</string>
+
+    <!-- view search  -->
+    <string name="view_search_failed">Ошибка поиска</string>
+
+</resources>
